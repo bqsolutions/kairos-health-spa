@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kairos Float & Wellness Studio | Greenville, NC</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="logo">KAIROS <span>·</span> FLOAT</div>
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">New Clients</a></li>
+      <li><a href="#hours">Contact</a></li>
+    </ul>
+    <button class="book-btn" onclick="handleBook()">Book a Session</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-main">
+      <p class="hero-eyebrow">Greenville's First Float Studio · Est. in Eastern NC</p>
+      <h1 class="serif">Still<br>your<br><em>mind.</em></h1>
+      <p class="hero-sub">Greenville's premier wellness studio offering float therapy, infrared sauna, cold plunge, halotherapy, and contrast therapy — all science-backed, all designed for deep restoration.</p>
+      <div class="hero-ctas">
+        <button class="cta-primary" onclick="handleBook()">Book Your Float</button>
+        <button class="cta-ghost" onclick="scrollToSection('services')">Explore Services</button>
+      </div>
+    </div>
+    <div class="hero-aside">
+      <div class="hero-line"></div>
+      <div class="hero-stat">
+        <div class="num serif">1,500</div>
+        <div class="label">lbs of Epsom salt</div>
+      </div>
+      <div class="hero-stat">
+        <div class="num serif">93.5°</div>
+        <div class="label">skin-temp water</div>
+      </div>
+      <div class="hero-stat">
+        <div class="num serif">5</div>
+        <div class="label">wellness modalities</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-wrap">
+    <div class="marquee-inner">
+      <span class="marquee-item">Float Therapy <span class="marquee-dot">·</span></span>
+      <span class="marquee-item">Infrared Sauna <span class="marquee-dot">·</span></span>
+      <span class="marquee-item">Halotherapy <span class="marquee-dot">·</span></span>
+      <span class="marquee-item">Cold Plunge <span class="marquee-dot">·</span></span>
+      <span class="marquee-item">Contrast Therapy <span class="marquee-dot">·</span></span>
+      <span class="marquee-item">Sensory Deprivation <span class="marquee-dot">·</span></span>
+      <span class="marquee-item">Float Therapy <span class="marquee-dot">·</span></span>
+      <span class="marquee-item">Infrared Sauna <span class="marquee-dot">·</span></span>
+      <span class="marquee-item">Halotherapy <span class="marquee-dot">·</span></span>
+      <span class="marquee-item">Cold Plunge <span class="marquee-dot">·</span></span>
+      <span class="marquee-item">Contrast Therapy <span class="marquee-dot">·</span></span>
+      <span class="marquee-item">Sensory Deprivation <span class="marquee-dot">·</span></span>
+    </div>
+  </div>
+
+  <!-- INTRO -->
+  <section class="intro" id="about">
+    <div>
+      <p class="intro-label">Our Foundation</p>
+      <h2 class="serif">Where science meets stillness</h2>
+      <p>Founded and operated by Dr. Rebecca Harris, PhD in Physiology from East Carolina University, Kairos Float & Wellness Studio is the first and only sensory deprivation float studio in eastern North Carolina.</p>
+      <p>We believe that optimal wellness lives at the intersection of cutting-edge research and genuine human care — every service we offer is chosen for its documented benefits, not trends.</p>
+      <div class="founder-badge">
+        <div>
+          <div class="fi">Founded by</div>
+          <p>Dr. Rebecca Harris, PhD in Physiology · East Carolina University · Greenville, NC</p>
+        </div>
+      </div>
+    </div>
+    <div class="intro-visual">
+      <div class="accent-box"></div>
+      <div class="visual-box">
+        <img src="images/image 1.jpg" alt="Float suite interior" class="visual-img">
+        <div class="visual-caption">Private float suites · 8' × 6.5' · Soundproof</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="section-header">
+      <h2 class="serif">Our Services</h2>
+      <p>Five science-backed modalities. One destination. Choose your path to restoration.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-num serif">01</div>
+        <h3 class="serif">Float Therapy</h3>
+        <p>Effortlessly suspend in 1,500 lbs of Epsom salt in a private, soundproof suite. 30, 60, 90, and 120-minute sessions. You control the lights and sound — total REST.</p>
+        <span class="service-tag">Sensory Deprivation</span>
+      </div>
+      <div class="service-card">
+        <div class="service-num serif">02</div>
+        <h3 class="serif">Infrared Sauna</h3>
+        <p>Deep tissue warmth using infrared and red light. Detoxify, ease muscle tension, and improve circulation in our full-spectrum infrared sauna suite.</p>
+        <span class="service-tag">Recovery + Detox</span>
+      </div>
+      <div class="service-card">
+        <div class="service-num serif">03</div>
+        <h3 class="serif">Halotherapy</h3>
+        <p>Breathe in micro-particles of pure dry salt in our tranquil salt room. 45-minute sessions. Proven benefits for respiratory health, skin, and deep relaxation.</p>
+        <span class="service-tag">Salt Therapy</span>
+      </div>
+      <div class="service-card">
+        <div class="service-num serif">04</div>
+        <h3 class="serif">Cold Plunge</h3>
+        <p>Immerse in cold water therapy to reduce inflammation, boost mood, and accelerate recovery. A powerful reset for both body and mind.</p>
+        <span class="service-tag">Cryotherapy</span>
+      </div>
+      <div class="service-card">
+        <div class="service-num serif">05</div>
+        <h3 class="serif">Contrast Therapy</h3>
+        <p>Cycle between heat and cold to supercharge recovery. Combine infrared sauna with cold plunge for a powerful circulatory and nervous system reset.</p>
+        <span class="service-tag">Hot + Cold Protocol</span>
+      </div>
+      <div class="service-card service-card--cta">
+        <p class="serif cta-quote">"The right time is right now."</p>
+        <p class="cta-desc">Single sessions, packages, and memberships available. Prices start at $25.</p>
+        <button class="cta-primary" onclick="handlePricing()">View Pricing</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="experience" id="experience">
+    <div class="exp-left">
+      <h2 class="serif">Your first visit, <em>simplified</em></h2>
+      <p>We take care of everything. You just arrive, surrender, and float.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num serif">I</div>
+          <div class="step-text">
+            <h4>Arrive & sign in</h4>
+            <p>Complete your waiver once per year. Enjoy a light meal beforehand — it enhances the experience.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num serif">II</div>
+          <div class="step-text">
+            <h4>Shower & prepare</h4>
+            <p>We provide all essentials. Shower before entering. Earplugs provided. You're always in full control.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num serif">III</div>
+          <div class="step-text">
+            <h4>Float & restore</h4>
+            <p>Effortlessly suspend in skin-temperature water. Lights, sound, and door — all in your hands.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num serif">IV</div>
+          <div class="step-text">
+            <h4>Refresh & hydrate</h4>
+            <p>Use our hair & makeup area. Complimentary drink bar — water, tea, or juice. Stay and absorb the calm.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="exp-right">
+      <div class="exp-stat">
+        <div class="big serif">1st</div>
+        <div class="desc">Float studio in all of eastern<br>North Carolina</div>
+      </div>
+      <div class="exp-stat">
+        <div class="big serif">6</div>
+        <div class="desc">Capacity in our halotherapy lounge —<br>group & solo sessions available</div>
+      </div>
+      <div class="exp-stat">
+        <div class="big serif">ADA</div>
+        <div class="desc">Fully ADA-compliant facility.<br>Accessible to all guests.</div>
+      </div>
+      <div class="exp-stat">
+        <div class="big serif">$25</div>
+        <div class="desc">Starting price. Single sessions,<br>packages, and memberships available.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOURS -->
+  <section class="hours" id="hours">
+    <div>
+      <h2 class="serif">Hours & Location</h2>
+      <table class="hours-table">
+        <tr><td>Monday</td><td>9:00 am – 7:00 pm</td></tr>
+        <tr class="closed"><td>Tuesday</td><td>Closed</td></tr>
+        <tr><td>Wednesday</td><td>9:00 am – 7:00 pm</td></tr>
+        <tr><td>Thursday</td><td>9:00 am – 7:00 pm</td></tr>
+        <tr><td>Friday</td><td>9:00 am – 7:00 pm</td></tr>
+        <tr><td>Saturday</td><td>10:00 am – 6:00 pm</td></tr>
+        <tr><td>Sunday</td><td>10:00 am – 6:00 pm</td></tr>
+      </table>
+    </div>
+    <div class="contact-block">
+      <div class="contact-item">
+        <span class="label">Address</span>
+        <span class="value">2800 E 10th St, Suite 102<br>Greenville, NC 27858</span>
+      </div>
+      <div class="contact-item">
+        <span class="label">Phone</span>
+        <span class="value"><a href="tel:2522987749">(252) 298-7749</a></span>
+      </div>
+      <div class="contact-item">
+        <span class="label">Email</span>
+        <span class="value"><a href="mailto:manager@kairosfloats.com">manager@kairosfloats.com</a></span>
+      </div>
+      <div class="contact-item">
+        <span class="label">New Clients</span>
+        <span class="value">Call & mention Yelp for<br>a special new client float rate</span>
+      </div>
+      <button class="cta-primary" onclick="handleBook()">Book Online Now</button>
+    </div>
+  </section>
+
+  <!-- FOOTER CTA -->
+  <section class="footer-cta">
+    <h2 class="serif">Your moment<br>is now.</h2>
+    <p>Single sessions from $25 · Packages · Memberships · Gift cards available</p>
+    <button class="cta-primary" onclick="handleBook()">Reserve Your Session</button>
+  </section>
+
+  <footer>
+    <div class="f-logo">KAIROS · FLOAT & WELLNESS</div>
+    <p>2800 E 10th St, Suite 102 · Greenville, NC 27858 · (252) 298-7749</p>
+    <p>© 2026 Kairos Float & Wellness Studio LLC</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
